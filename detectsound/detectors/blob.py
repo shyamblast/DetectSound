@@ -4,7 +4,7 @@ import numpy as np
 from scipy.signal import convolve, sosfiltfilt
 from scipy.optimize import linear_sum_assignment
 
-from audiodetector.utils import get_1d_gauss_kernel, get_1d_LoG_kernel, first_true, last_true
+from detectsound.utils import get_1d_gauss_kernel, get_1d_LoG_kernel, first_true, last_true
 
 
 class _BlobExtractor:

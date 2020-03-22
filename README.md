@@ -1,2 +1,2 @@
-# sound-detectors-py
-Python implementation of detectors developed during my PhD.
+# DetectSound
+Python module containing general-purpose detectors for extracting different types of sounds from acoustic recordings.

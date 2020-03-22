@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 
 with open('README.md', 'r') as fd:
@@ -30,7 +30,7 @@ setup(
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
         ],
-    packages=['detectsound'],
+    packages=find_packages(),
     install_requires=[
         'numpy',
         'scipy'
